@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuRC17"
+          android:title="RC 17"
+          android:icon="@drawable/rc"/>
+    <item android:id="@+id/menuRC52"
+          android:title="RC 52"
+          android:icon="@drawable/rc"/>
+     <item android:id="@+id/menuCallCompleted"
+          android:title="Call Completed"
+          android:icon="@drawable/call_complt"/>
+</menu>

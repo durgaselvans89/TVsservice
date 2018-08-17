@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout
+  				xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/item_bg"> 	
+		    	
+		    <ImageView
+				android:id="@+id/imgViewCall_02"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/view"
+				android:layout_centerVertical="true"
+				android:layout_toRightOf="@+id/txtSerialNo_02"
+				android:layout_marginLeft="120dip"/>		   	  	
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingRight="10dip"
+				android:layout_marginLeft="10dip" 
+				android:id="@+id/txtName_02"
+				android:text="Deepali"
+				android:layout_marginBottom="5dip"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:typeface="sans"
+				android:textColor="#333333"/>
+			
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingRight="10dip"
+				android:layout_below="@+id/txtName_02"
+				android:layout_marginLeft="10dip" 
+				android:id="@+id/txtCompanyName_02"
+				android:text="Park Limited"
+				android:layout_marginBottom="5dip"
+				android:textSize="12sp"
+				android:typeface="sans"
+				android:textColor="#333333"/>
+			
+			
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingRight="10dip"
+				android:layout_below="@+id/txtCompanyName_02"
+				android:layout_marginLeft="10dip" 
+				android:id="@+id/txtSerialHeader_02"
+				android:text="Serial No :"
+				android:layout_marginBottom="5dip"
+				android:visibility="visible"
+				android:textSize="12sp"
+				android:typeface="sans"
+				android:textColor="#333333"/>
+			
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingRight="10dip"
+				android:layout_below="@+id/txtCompanyName_02"
+				android:layout_toRightOf="@+id/txtSerialHeader_02"
+				android:visibility="visible"
+				android:id="@+id/txtSerialNo_02"
+				android:text="340505601198"
+				android:textSize="12sp"
+				android:typeface="sans"
+				android:textColor="#333333"/>
+				
+			<ImageView
+				android:id="@+id/imgViewCall_02"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/call_icon"
+				android:layout_marginLeft="10dip" 
+				android:layout_below="@+id/txtSerialNo_02"/>	
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:paddingRight="10dip"
+				android:layout_below="@+id/txtSerialNo_02"
+				android:layout_toRightOf="@+id/imgViewCall_02"
+				android:layout_marginLeft="10dip"
+				android:visibility="visible" 
+				android:id="@+id/txtPhoneNo_02"
+				android:text="9800416286"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:typeface="sans"
+				android:textColor="#6AB01C"/>
+			
+		</RelativeLayout>		

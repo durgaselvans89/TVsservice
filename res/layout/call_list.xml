@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg">
+			<ImageView
+				android:id="@+id/imgViewHeader_02"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/call_list_header"/>	
+		 <LinearLayout
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:layout_below="@id/imgViewHeader_02">
+    			
+ 		<ExpandableListView 
+ 		
+ 			   android:id="@android:id/list"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:cacheColorHint="#000000"/>
+               
+        <TextView 	android:id="@android:id/empty"
+               		android:layout_width="fill_parent"
+               		android:layout_height="wrap_content"
+               		android:layout_marginTop="30dip"
+               		android:textColor="#ffffff"
+               		android:textSize="14sp"
+               		android:textStyle="bold"
+               		android:layout_gravity="center_vertical"
+               		android:text="There are no calls available."
+               		android:gravity="center"/>       
+ 		</LinearLayout>
+</RelativeLayout>

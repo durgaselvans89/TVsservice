@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVSEService</string>
+    <string name="ver_no">ver - 1.3.1.7</string>
+    <string name="result">Result</string>
+    <string name="partusage">Parts Usage</string>
+    <string name="reason">Reason</string>
+    <string name="activity_done">Activity Done</string>
+    <string name="parts_involved">Parts involved</string>
+    <string name="login_error">Please enter correct Username and Password.</string>
+    <string name="network_disconnected">please check your network</string>
+	<string name="directory">crmdev2k7/rtu</string>
+	<string name="s.no"><u>S.no</u></string>
+	<string name="part.no"><u>Part No</u></string> 
+	<string name="uniqueid"><u>Unique ID</u></string>  
+  </resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Reason">
+        <item>Reason - (none)</item>
+    </string-array>
+    <string-array name="Result">
+        <item>Results</item>
+    </string-array>
+    <string-array name="PartsInvolved">
+    <item>Parts Replaced</item>
+    <item>No Parts Replaced</item>
+    <item>Service Call only</item>
+    </string-array>
+    
+</resources>
+

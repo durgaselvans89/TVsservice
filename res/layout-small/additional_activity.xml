@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ 			xmlns:android="http://schemas.android.com/apk/res/android"
+ 			android:id="@+id/aditional_relativeContainer_01"
+ 			android:orientation="vertical" 
+		 	android:layout_width="fill_parent" 
+		 	android:layout_height="wrap_content"
+		 	android:background="@drawable/bg">
+	
+		<LinearLayout 
+			android:id="@+id/activity_linearHeader_01"
+			android:orientation="vertical"
+		 	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:background="@drawable/headerlogo">
+			
+			<TextView
+				android:id="@+id/txtactivity_Header_07"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="Additional Activity"
+				android:textSize="22sp"
+				android:textStyle="bold"
+				android:typeface="sans"
+				android:textColor="#ffffff"
+				android:gravity="center"/>	
+		 </LinearLayout>
+	<View
+		android:id="@+id/view01_07"
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:layout_marginLeft="100dip"
+		android:background="#000000"/> 
+	<ScrollView 
+	 	android:id="@+id/ScrollView_07" 
+	 	android:layout_width="fill_parent" 
+	 	android:scrollbars="none" 
+	 	android:layout_height="wrap_content" 
+	 	android:layout_below="@+id/activity_linearHeader_01"> 
+	<RelativeLayout
+		 	android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content"
+		 	android:paddingBottom="20dip">	
+	<TableLayout 
+			android:id="@+id/ActivityTable" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+ 	</TableLayout>
+ 	<Button
+					android:layout_below="@+id/ActivityTable"  
+					android:id="@+id/buttonSubmit_activity_01" 
+					android:layout_centerHorizontal="true"
+					android:textSize="16sp"
+		 			android:textStyle="bold"
+			        android:typeface="sans" 
+			        android:textColor="#000000" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/button"
+					android:gravity="center"
+					android:layout_marginTop="15dip" 
+					android:layout_width="wrap_content" 
+					android:text="Done"/>
+	</RelativeLayout>	
+ 	</ScrollView>
+ 	
+</LinearLayout>
+
+	
+

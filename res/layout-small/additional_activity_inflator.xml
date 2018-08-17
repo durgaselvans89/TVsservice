@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+	    	android:layout_marginRight="10dip"
+		 	android:layout_marginLeft="10dip"
+		 	android:background="@drawable/border1"
+	    	android:id="@+id/additional_activity_Linear_Inflator_1"
+	    	android:layout_height="30dip"> 	
+	 	<TextView android:layout_gravity="center_vertical"
+ 			android:id="@+id/txtactivity_01"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:paddingLeft="10dip"
+ 			android:textColor="#FFFFFF"
+ 			android:textSize="18sp"/>
+	 	<CheckBox  android:layout_gravity="center_vertical"
+	 		android:layout_width="50dip"
+			android:id="@+id/cboxactivity_01" 
+			android:textColor="#000000" 
+			android:gravity="center"
+			android:layout_height="wrap_content"/>
+</LinearLayout>	

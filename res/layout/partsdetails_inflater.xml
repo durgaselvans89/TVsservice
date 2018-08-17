@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="wrap_content" 
+		 	android:layout_height="wrap_content"
+		 	android:background="@drawable/border1">
+		 	
+	    	<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginTop="5dip">
+			
+			<TextView android:layout_width="wrap_content"
+			    android:gravity="center"
+				android:id="@+id/txtserialNo_10"
+				android:layout_height="wrap_content"
+				android:textSize="15sp"
+				android:typeface="sans"
+				android:textColor="#FFFFFF"/>
+			
+			<TextView android:layout_width="wrap_content" 
+			    android:gravity="center"
+				android:id="@+id/txtPartNumber_10"
+				android:layout_height="wrap_content"
+				android:textSize="15sp"
+				android:typeface="sans"
+				android:textColor="#FFFFFF"/>
+			
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:gravity="center"
+				android:id="@+id/txtuniqueIdHeader_10"
+				android:layout_height="wrap_content"
+				android:textSize="15sp"
+				android:typeface="sans"
+				android:textColor="#FFFFFF"/>
+			</LinearLayout>
+			
+	    	<Button
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:prompt="@string/partusage"			
+				android:layout_marginTop="20dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:text="Part Usage"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:background="@drawable/spinner_down"
+				android:id="@+id/btnPartUsage_10"/>
+	    	    
+		 	<EditText
+	 			android:id="@+id/edtxtppid_10"
+	 			android:hint="Enter the PPID Value"
+	 			android:layout_width="fill_parent"
+	 			android:layout_height="wrap_content"
+	 			android:paddingTop="10dip"
+	 			android:paddingBottom="10dip"
+	 			android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+	 			android:layout_marginBottom="20dip"
+	 			android:layout_marginTop="10dip"
+				android:singleLine="true"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:enabled="false"
+				android:imeOptions="actionDone"
+				android:textSize="14dip"/> 	
+	</LinearLayout>	 	

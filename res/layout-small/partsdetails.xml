@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/bottombg">
+  		
+		<LinearLayout 
+			android:id="@+id/linearHeader_10"
+			android:orientation="vertical"
+		 	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:background="@drawable/headerlogo">
+			<TextView
+				android:id="@+id/txtHeader_10"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="Parts Transaction"
+				android:textSize="22sp"
+				android:textStyle="bold"
+				android:typeface="sans"
+				android:textColor="#ffffff"
+				android:gravity="center"/>	
+		 </LinearLayout>
+		<LinearLayout
+			    android:id="@+id/imgViewTitle_10" 
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/linearHeader_10"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_marginTop="5dip">
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/s.no"
+				android:textSize="15sp"
+				android:id="@+id/txt_view_sNo_10"
+				android:typeface="sans"
+				android:gravity="center"
+				android:textColor="#FFFFFF"/>
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/part.no"
+				android:id="@+id/txt_view_partNo_10"
+				android:textSize="15sp"
+				android:typeface="sans"
+				android:gravity="center"
+				android:textColor="#FFFFFF"/>
+			
+			<TextView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/uniqueid"
+				android:id="@+id/txt_view_UniqueId_10"
+				android:textSize="15sp"
+				android:typeface="sans"
+				android:gravity="center"
+				android:textColor="#FFFFFF"/>
+				
+			
+			</LinearLayout>
+							
+		<ScrollView 
+	 	android:id="@+id/ScrollView_10" 
+	 	android:layout_width="fill_parent" 
+	 	android:scrollbars="vertical"
+	 	android:layout_height="wrap_content" 
+	 	android:layout_below="@+id/imgViewTitle_10"> 
+	 	<RelativeLayout
+		 	android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content">	
+		<TableLayout
+		    android:layout_marginLeft="10dip"
+		 	android:layout_marginRight="10dip" 
+				android:id="@+id/ppidTable_10" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"/>
+		<Button
+			android:layout_below="@+id/ppidTable_10"  
+			android:id="@+id/btnDone_10" 
+			android:textSize="16sp"
+ 			android:textStyle="bold"
+	        android:typeface="sans" 
+	        android:textColor="#000000" 
+	        android:layout_centerHorizontal="true"
+			android:layout_height="wrap_content"
+			android:text="Done"
+			android:gravity="center"
+			android:layout_marginRight="60dip"
+			android:layout_marginTop="5dip" 
+			android:layout_width="wrap_content" />
+		</RelativeLayout>
+ 	</ScrollView>
+</RelativeLayout>
